@@ -1,6 +1,6 @@
 # Movie App
 
-> Move App on Vanilla JS
+> Move App on Vanilla JS (TMDB API)
 
 ### [Demo]()
 
