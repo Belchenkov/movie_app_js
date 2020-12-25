@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
 
 :root {
-  --primary-color: #22254b;
-  --secondary-color: #373b69;
+  --primary-color: #2d241b;
+  --secondary-color: #393534;
 }
 
 * {
@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: var(--primary-color);
+  background: url("./img/bg.png") repeat;
   font-family: 'Sirin Stencil', cursive;
   margin: 0;
 }
@@ -19,7 +19,8 @@ header {
   padding: 1rem;
   display: flex;
   justify-content: flex-end;
-  border: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  margin-bottom: 2rem;
 }
 
 .search {
@@ -44,6 +45,7 @@ header {
 #main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .movie {
@@ -72,6 +74,7 @@ header {
 
 .movie-info h3 {
   margin-top: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
 }
 
 .movie-info span {
